@@ -39,7 +39,7 @@
 			<div class="content box style2">
 				<header><h2>À propos de moi</h2></header>
 				<p>Diplômé en design graphique au collège Marie-Victorin en 2012, j'exerce ce métier avec passion et dynamisme.</p>
-				<p>On dit de moi que je suis quelqu'un de fiable et ponctuel ainsi que toujours positif.</p>
+				<p>On dit de moi que je suis quelqu'un de fiable et ponctuel constament positif.</p>
 				<p>J'adore dépasser mes limites et avoir de nouveaux défis.</p>
 			</div>
 			<a href="#competences" class="button style2 down anchored" title="Dérouler vers le bas">Suivant</a>
