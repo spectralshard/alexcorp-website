@@ -1,0 +1,676 @@
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	.button, input, select, textarea {
+		position: relative;
+		-ms-behavior: url('css/ie/PIE.htc');
+	}
+
+	input, select, textarea {
+		border: solid 1px #ccc;
+	}
+
+	/* Buttons */
+
+		.button {
+		}
+
+			.button.down {
+				text-indent: 0;
+			}
+
+/*********************************************************************************/
+/* Intro                                                                         */
+/*********************************************************************************/
+
+	#intro {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/intro_1.jpg');
+		background-size: cover;
+	}
+
+		#intro:before {
+			content: '';
+			background: url('../images/overlay.png');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* a_propos                                                                          */
+/*********************************************************************************/
+
+	#a_propos {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/me_snow.jpg');
+		background-size: cover;
+	}
+
+		#one:before {
+			content: '';
+			background: url('../images/overlay.png');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* competences                                                                           */
+/*********************************************************************************/
+
+	#competences {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/competence.gif');
+		background-size: cover;
+	}
+
+		#two:before {
+			content: '';
+			background: url('../images/overlay.png');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+/*********************************************************************************/
+/* Quote                                                                          */
+/*********************************************************************************/
+
+	#quote {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#555759;
+		background-size: cover;
+	}
+
+		#quote:before {
+			content: '';
+			background: url('../images/overlay.png');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+/*********************************************************************************/
+/* CYCLOVIC                                                                          */
+/*********************************************************************************/
+    #cyclovic_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/cyclovic_logo.jpg');
+		background-size: cover;
+	   }
+
+		#cyclovic_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #cyclovic_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#00AEEF;
+		background-size: cover;
+	}
+
+		#cyclovic_texte:before {
+			content: '';
+			background: url('../images/overlay.png');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#cyclovic_pancarte_p1{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/cyclovic_pancarte_01.jpg');
+		background-size: cover;
+	   }
+
+		#cyclovic_pancarte_p1:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+/*********************************************************************************/
+/* Punch                                                                         */
+/*********************************************************************************/
+    #punch_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-punch-design-logo.jpg');
+		background-size: cover;
+	   }
+
+		#punch_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #punch_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#99abae;
+		background-size: cover;
+	}
+
+		#punch_texte:before {
+			content: '';
+			background: url('../images/overlay.png');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#punch_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-punch-design-cahier-norme.jpg');
+		background-size: cover;
+	   }
+
+		#punch_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Goldfish                                                                        */
+/*********************************************************************************/
+    #goldfish_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets_goldfish_closeup_01.jpg');
+		background-size: cover;
+	   }
+
+		#goldfish_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #goldfish_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#e7b552;
+		background-size: cover;
+	}
+
+		#goldfish_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#goldfish_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets_goldfish_closeup_02.jpg');
+		background-size: cover;
+	   }
+
+		#goldfish_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Boréale                                                                        */
+/*********************************************************************************/
+    #boreale_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets_boreale_logo.jpg');
+		background-size: cover;
+	   }
+
+		#boreale_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #boreale_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#db001b;
+		background-size: cover;
+	}
+
+		#boreale_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#boreale_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets_boreale_affiche_voeu.jpg');
+		background-size: cover;
+	   }
+
+		#boreale_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Festival de mode et design                                                    */
+/*********************************************************************************/
+    #mode_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-festival-mode-design-intro.jpg');
+		background-size: cover;
+	   }
+
+		#mode_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #mode_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#7e2a90;
+		background-size: cover;
+	}
+
+		#mode_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#mode_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-festival-mode-design-affiche.jpg');
+		background-size: cover;
+	   }
+
+		#mode_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Dubo                                                                          */
+/*********************************************************************************/
+    #dubo_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/dubo_logo.jpg');
+		background-size: cover;
+	   }
+
+		#dubo_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #dubo_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#f7921e;
+		background-size: cover;
+	}
+
+		#dubo_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#dubo_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/dubo_papetterie.jpg');
+		background-size: cover;
+	   }
+
+		#dubo_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Brun fluo                                                                     */
+/*********************************************************************************/
+    #brunfluo_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/brun-fluo-concept-intro.jpg');
+		background-size: cover;
+	   }
+
+		#brunfluo_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #brunfluo_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#8d683e;
+		background-size: cover;
+	}
+
+		#brunfluo_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#brunfluo_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/brun-fluo-concept-insert.jpg');
+		background-size: cover;
+	   }
+
+		#brunfluo_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Festival Eclipse                                                              */
+/*********************************************************************************/
+    #eclipse_intro {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-festival-eclipse-intro.jpg');
+		background-size: cover;
+	   }
+
+		#eclipse_intro:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #eclipse_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#5955a5;
+		background-size: cover;
+	}
+
+		#eclipse_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#eclipse_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets_festival_eclipse-affiche-personnage.jpg');
+		background-size: cover;
+	   }
+
+		#eclipse_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Couverture d'agenda CMV                                                       */
+/*********************************************************************************/
+    #acmv_intro {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-agenda-cover.jpg');
+		background-size: cover;
+	   }
+
+		#acmv_intro:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #acmv_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#de9e37;
+		background-size: cover;
+	}
+
+		#acmv_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #acmv_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-agenda-middle.jpg');
+		background-size: cover;
+	   }
+
+		#acmv_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Déjouer les allergies                                                         */
+/*********************************************************************************/
+    #dejouer_intro {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-dejouer-logo.jpg');
+		background-size: cover;
+	   }
+
+		#dejouer_intro:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #dejouer_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#f7941e;
+		background-size: cover;
+	}
+
+		#dejouer_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #dejouer_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-dejouer-programme.jpg');
+		background-size: cover;
+	   }
+
+		#dejouer_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Post-Moderne                                                                  */
+/*********************************************************************************/
+    #pm_intro {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-post-moderne-logo.jpg');
+		background-size: cover;
+	   }
+
+		#pm_intro:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #pm_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#bf2925;
+		background-size: cover;
+	}
+
+		#pm_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #pm_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/projets-post-moderne-sang.jpg');
+		background-size: cover;
+	   }
+
+		#pm_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+
+/*********************************************************************************/
+/* Télécom sans limite                                                           */
+/*********************************************************************************/
+    #tsl_logo {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/telecom-sans-limite-logo.jpg');
+		background-size: cover;
+	   }
+
+		#tsl_logo:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+    #tsl_texte {
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background-color:#222c6a;
+		background-size: cover;
+	}
+
+		#tsl_texte:before {
+			content: '';
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+#tsl_preview{
+		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		background: url('../../images/telecom-sans-limite-cartes.jpg');
+		background-size: cover;
+	   }
+
+		#tsl_preview:before {
+			content: '';
+			background: url('');
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
